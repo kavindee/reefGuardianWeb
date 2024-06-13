@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+	
+
+
+
+    <title>ReefGuardian</title>
+</head>
+<body style="background-color: #E9F7EF">
+    <!-- NavBar -->
+    <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="#home">
+            <img src="./Images/logo/logo.png" width="40" height="40" class="d-inline-block align-top"  loading="lazy">
+            <span>ReefGuardian</span></br>
+        </a>
+        <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="navmenu-links" class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"><b>Home</b></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <b>Project Scope</b>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#project-scope">Literature Survey</a>
+                <a class="dropdown-item" href="#research_gap">Research Gap</a>
+                <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+                <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+                <a class="dropdown-item" href="#methodology">Methodology</a>
+                <a class="dropdown-item" href="#tech_used">Technologies</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#milestones"><b>Milestones</b></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <b>Downloads</b>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#downloads">Documents</a>
+                  <a class="dropdown-item" href="#presentations">Presentations</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about"><b>About Us</b></a>
+            </li>
+			<!-- <li class="nav-item">
+                <a class="nav-link" href="#achievements">Achievements</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="#contact"><b>Contact Us</b></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Home -->
+      <section id="home">
+        <div class="container">
+            <div class="hero-cta">
+                <h1>Coral Reef<br/>Conservation System</h1>
+                <a class="btn btn-outline-light" type="button" href="#project-scope"><span class="btn-text">Learn More</span><span class="fas fa-chevron-right btn-icon"></span></a>
+            </div>
+        </div>
+        <div class="hero-cover">
+            <img class="spotlight-image" src="./Images/other/bck.jpg"/>
+            <img class="hero-image" src="./Images/other/background.jpg"/>
+        </div>
+      </section>
+      <!-- project-scope -->
+      <section id="project-scope" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings"><b>Project Scope</b></h5>
+            <!-- Literature Survey -->
+            <div id="literature" class="sub-section">
+                <h2>Literature Survey</h2>
+                <div class="row">
+                  <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                    <div class="section-left">
+                      <div class="section-info-div">
+                        <div class="row">
+                          <div class="col-sm-5"><img src="./Images/lit/25.png" width="60%"/></div>
+                          <div class="col-sm-7 text-col">Coral reef support an estimated 25% of all marine species.<span style="color: grey; font-size: 12px;">[1]</span style="color: grey; font-size: 12px;"></div>
+                        </div>
+                      </div>
+                      <div class="section-figure " >
+                        <img style="align-items:center" src="./Images/lit/figure1.jpg" width="80%"/>
+                        <p>Figure 1. Coral reef habitats around Sri Lanka [1]</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+					<p>Coral reefs, vital for maintaining oceanic ecosystem balance, face unprecedented challenges demanding innovative conservation strategies, especially in biodiversity-rich regions like Sri Lanka. The fusion of machine learning (ML) and mobile technologies, particularly the application of Convolutional Neural Networks (CNNs) like ResNet-50, has marked a transformative era in coral reef monitoring [2]. Sri Lanka’s diverse coral species, numbering 171 across 65 genera, underscores the ecological richness and the pressing need for preservation [3]. Unregulated coral exploitation and environmental threats necessitate automated systems for effective monitoring, leveraging deep learning methods, particularly CNNs fine-tuned on diverse datasets [4]. </p>
+				  <p>To address the worldwide coral bleaching crisis, remote sensing technology emerges as a valuable tool. Our research explores spectral analysis approaches differentiating between healthy and bleached corals, highlighting a significance of remote sensing for coral health assessment [5]. This aligns with the urgency emphasized in recent research regarding the degradation of coral reefs due to climate change, pollution, and illegal activities [6]. </p>
+                    <div class="references">
+                      <p class="pt-sm-1"><strong>References</strong></p>
+                      <ol>
+                        <li>Gajaba Ellepola a b et al. (2021) Spatial analysis of geophysical and environmental factors characterize distinct coral reef habitats around Sri Lanka; Implications for Management, Ocean&Coastal Management. Available at: https://www.sciencedirect.com/science/article/abs/pii/S0964569121001514 (Accessed: 12 June 2024).</li>
+                        <li>Indriani (2023) “Applying transfer learning resnet-50 for tracking and classification of a coral reef in development the mobile application with Scrum framework”, Journal of Information Technology, 4(2), pp. 24–29. doi:10.47292/joint.v4i2.90.</li>
+                        <li> Rajasuriya, A., and White, A.T., "Coral reefs of Sri Lanka: Review of their extent, condition, and management status," Coastal Management, vol. 23, no. 1, pp. 77–90, 1995. DOI: 10.1080/08920759509362257.</li>
+                        <li> Lumini, A., Nanni, L. and Maguolo, G. (2020) ‘Deep Learning for Plankton and Coral Classification’, Applied Computing and Informatics, 19(3/4), pp. 265–283. doi:10.1016/j.aci.2019.11.0.</li>
+                        <li>Holden, H., & LeDrew, E. (1998). Spectral discrimination of Healthy and Non-Healthy corals based on cluster analysis, principal components analysis, and derivative spectroscopy. Remote Sensing of Environment, 65(2), 217–224. https://doi.org/10.1016/s0034-4257(98)00029-7.</li>
+                        <li> M. C. Sosnowski, J. S. Weis, and G. A. Petrossian, "Using crime script analysis to understand the illegal harvesting of live corals: Case studies from Indonesia and Fiji," Journal of Contemporary Criminal Justice, vol. 36, no. 3, pp. 384–402, 2020. [Online]. Available: https://doi.org/10.1177/1043986220910295.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Research Gap -->
+            <div id="research_gap" class="sub-section" >
+              <h2>Research Gap</h2>
+              <p>Following areas are the research gaps found in most of the recent researches.</p>
+              <div class="row mt-5 research-gap">
+			<div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-search fa-3x " aria-hidden="true" style="color: #4f42b5; "></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Identification & classification </h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;"> There are no records of a smart solution for coral identification and classification in Sri Lanka. Symptoms of coral disorders show similar characteristic appearances, making it a challenge to provide a solution for identifying and classifying healthy and non-healthy corals.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-chart-line fa-3x " aria-hidden="true" style="color: #4f42b5;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Severity assessment</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">A smart solution for the identification of healthy and non-healthy corals is reported in some regions, but the assessment of the severity of disease conditions and the progression level of coral damage has not been attempted.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-comments fa-3x " aria-hidden="true" style="color: #4f42b5;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Information sharing</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">A real-time communication system to speed up information sharing between divers, marine biologists, and researchers has been identified as a priority need for effective coral identification and health assessment.</p>
+                    </div>
+                </div>
+
+            </div>
+			</div> 
+              </div>
+          </div>
+            <!-- Research Problem -->
+            <div id="research_problem" class="sub-section">
+              <h2>Research Problem & Solution</h2>
+			   <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                 <h5><strong>Proposed Problem</strong></h5>
+				 </br>
+					<h4 class="highlight">How can we develop a smart application to accurately classify coral and coral diseases, and provide real-time surveillance and information sharing to stakeholders for effective coral reef conservation in Sri Lanka?</h4>
+					<p></p>
+					<p style="text-align: justify;">Coral bleaching and algae infestation are the most threatening issues facing coral reefs in Sri Lanka. Due to coral bleaching, extensive areas of coral reefs have been severely damaged, and an estimated large number of corals need to be identified for conservation efforts. An economical loss to the marine ecosystem and tourism industry will result if more than 30% of coral cover is lost due to COTS infestation. For efficient management of coral bleaching and COTS, early identification and effective communication among divers, marine biologists, and conservation professionals are needed.</p>
+				</br>
+				</div>
+
+				<div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/Fqk9wc-CN1Q?si=8aV5Ldju3tgQjp3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <p>Product Demonstration - Solution</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			     <div>
+				 <h5><strong>Proposed Solution</strong></h5>
+				 </br>
+				 <p style="text-align: justify;"> CoralCare utilizes mobile and web-based software to manage coral bleaching and Crown-of-Thorns Starfish (COTS) infestation, which devastate coral reefs. In cases of coral bleaching, the whitening of corals, often associated with environmental stressors, makes it difficult to distinguish affected corals accurately. Similarly, the damaged appearance of corals due to COTS infestation is difficult to distinguish from other forms of coral degradation. Therefore, Deep Learning techniques like Convolutional Neural Networks (CNN) for feature extraction will be used to identify coral conditions accurately. Divers, marine biologists, researchers, conservation officers, and the general public will be able to identify coral health accurately by capturing a photograph of the coral with symptoms. The location will be extracted by Geo Tags in order to gather anonymous data using OpenWeatherMapAPI for future predictions. The severity of coral bleaching is calculated based on multiple symptoms using CNN. Since COTS are associated with the damaged corals, counts of starfish are taken using OpenCV / YOLO object detection while the infected area is calculated using MASK R-CNN. Using the above-mentioned parameters, the progression level is determined. Real-time notifications are sent whenever an affected coral is found. Details of the affected corals, location, and severity records enable researchers and conservation officers to take remedial actions. Infected areas and danger zones that might be affected in the future can be visualized through Google mapping technologies. Nearby users are notified to take precautions to protect nearby coral reefs before they are affected.	</P>
+                </div>
+          </div>
+            <!-- Research Objectives -->
+		   <div id="research_objectives" class="sub-section">
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+          <!-- First Content Section-->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Coral Identification and Classification</h4>
+              <p style="text-align: justify;">This objective involves developing a system to accurately identify and classify different coral species. Using advanced image processing and machine learning techniques, particularly Convolutional Neural Networks (CNN), the application will analyze photographs of corals to determine their species and health status. This will help in monitoring the diversity and distribution of coral reefs in Sri Lanka.</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Solution for Coral Health Maintainance</h4>
+              <p style="text-align: justify;">The application will provide solutions for maintaining and improving coral health. By analyzing environmental data and coral condition reports, the system will suggest best practices for coral care, recommend interventions for stressed or diseased corals, and provide guidelines for mitigating factors such as pollution and climate change. This objective aims to support proactive and informed conservation efforts.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Third Content Section -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Coral Quality Measuring</h4>
+              <p style="text-align: justify;">
+                This feature will assess the quality and health of corals using image analysis and machine learning algorithms. The application will measure parameters such as bleaching extent, presence of pests like Crown-of-Thorns Starfish (COTS), and overall coral vitality. Tools like OpenCV and MASK R-CNN will be used to quantify the extent of damage or health, providing precise metrics for researchers and conservationists.</p>
+            </div>
+          </div>
+		   <!-- Path Line -->
+
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Crowd Sourcing and Information Sharing</h4>
+              <p style="text-align: justify;">To enhance data collection and community involvement, the application will incorporate crowd sourcing features. Divers, tourists, and local communities can upload coral images and observations, contributing valuable data to the research project. Real-time information sharing and notifications will be facilitated to keep stakeholders informed about coral health status and conservation actions. This collaborative approach will enable a broader and more dynamic dataset, enhancing the overall effectiveness of the conservation efforts.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Methodology -->
+            <div id="methodology" class="sub-section">
+              <h2>Methodology</h2>
+              <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <img src="./Images/other/architecture.png" width="100%"/>
+                      <p>Figure 2. Overall System Diagram.</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                  <p>The proposed pest and disease Surveillance system consists of 4 main components. They are;</p>
+                  <ol>
+                    <li><strong>Coral identification and classification</strong></li>
+                    <li><strong>Solution for coral health maintainance</strong></li>
+                    <li><strong>Coral quality measuring</strong></li>
+					          <li><strong>Crowdsourcing and information sharing.</strong></li>
+                  </ol>
+				  <p> The system diagram outlines a comprehensive process for identifying and classifying coral health using mobile and web-based software. Here's a detailed description of the system components and workflow: Firstly, users capture an image of the coral using their mobile device, along with the GPS coordinates of the location where the image was taken. This information is then uploaded to the system as a screenshot or evidence. The system employs a Convolutional Neural Network (CNN) for health detection. The uploaded image undergoes preprocessing to enhance its quality and extract relevant features for analysis. The CNN analyzes these features to classify the coral as healthy or suffering from conditions such as bleaching or other diseases. The results from the image processing and quality measurement stages are stored in a database. This data is then analyzed to identify trends and make future predictions using tools like OpenWeatherMapAPI. This helps in understanding the broader impact and potential future risks to coral reefs. Real-time notifications are sent to relevant authorities whenever an infected coral is detected. Users receive the analysis results on their mobile devices, including the health status of the coral and any necessary precautions to be taken. This ensures timely interventions and helps in mitigating the spread of coral diseases.</p>
+				  <p>Finally, the system uses Google mapping technologies to visualize infected areas and potential danger zones. This allows conservation professionals and the general public to see where coral reefs are most at risk and take proactive measures to protect nearby coral ecosystems. This visualization aids in strategic planning and resource allocation for coral conservation efforts.</p>
+                </div>
+              </div>
+          </div>
+            <!-- Technologies Used -->
+            <div id="tech_used" class="sub-section">
+              <h2>Technologies Used</h2>
+              <div class="row technology mt-5">
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/python.png" alt="Python">
+                  </div>
+                  <p>Python</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/react.png" alt="React">
+                  </div>
+                  <p>React</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/tensorflow.png" alt="Python">
+                  </div>
+                  <p>Tensorflow</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/keras.png" alt="Keras">
+                  </div>
+                  <p>Keras</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/mongodb.png" alt="MongoDB">
+                  </div>
+                  <p>MongoDB</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/firebase.png" alt="Firebase">
+                  </div>
+                  <p>Firebase</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/gmailAPI.png" alt="GmailAPI">
+                  </div>
+                  <p>GmailAPI</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/leaflet.png" alt="Leaflet Mapping">
+                  </div>
+                  <p>Leaflet Mapping</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/pycharm.png" alt="PyCharm">
+                  </div>
+                  <p>PyCharm</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/colab.png" alt="Google Colab">
+                  </div>
+                  <p>Google Colab</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/googlemap.png" alt="Google map API">
+                  </div>
+                  <p>Google map API</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/jwt.png" alt="Jwt">
+                  </div>
+                  <p>Jwt</p>
+                </div>
+          </div>
+  </div>
+</div>
+      </section>
+      <!-- Milestones -->
+      <section id="milestones" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings"><b>Milestones</b></h5>
+            <div class="sub-section">
+                <h2>Timeline in Brief</h2>
+                <div class="milestones">
+                  <ul class="timeline">
+                    <!-- Project Proposal -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">August 2023</p>
+                        <h3>Project Proposal</h3>
+                        <p>A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation I -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">November 2023</p>
+                        <h3>Progress Presentation I</h3>
+                        <p>Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 12%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Research Paper -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">March 2024</p>
+                        <h3>Research Paper</h3>
+                        <p>Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge</p>
+                        <p><strong>Marks Allocated : </strong>10</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 27%" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation II -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">March 2024</p>
+                        <h3>Progress Presentation II</h3>
+                        <p>Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.</p>
+                        <p><strong>Marks Allocated : </strong>18</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Website -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June 2024</p>
+                        <h3>Website Assessment</h3>
+                        <p>The Website helps to promote our research project and reveals all details related to the project.</p>
+                        <p><strong>Marks Allocated : </strong>2</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Logbook -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June 2024</p>
+                        <h3>Logbook</h3>
+                        <p>Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.</p>
+                        <p><strong>Marks Allocated : </strong>3</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 3%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100">3%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Final Report -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">April 2024</p>
+                        <h3>Final Report</h3>
+                        <p>Final Report evalutes the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.</p>
+                        <p><strong>Marks Allocated : </strong>19</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 19%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">19%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Viva -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">May 2024</p>
+                        <h3>Final Presentation & Viva</h3>
+                        <p>Viva is held individually to assess each members contribution to the project.</p>
+                        <p><strong>Marks Allocated : </strong>20</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Downloads -->
+      <section id="downloads" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings"><b>Downloads</b></h5>
+            <!-- Documents -->
+            <div class="sub-section">
+                <h2>Documents</h2>
+                <p>Please find all documents related to this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+				 <!-- Topic Assessment -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/07/15</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1rIB50aJdrntuISTKPzD2pLIUEmkrrbht/view?usp=sharing" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Project Charter -->
+                  <!-- <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Charter</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2021/02/25</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1SkZ36rNGmUOqeJ2POyQYl_jagM2NrtV_/view?usp=sharing" target="_blank">Download</a></li> -->
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      <!-- </ul>
+
+                    </div>
+                  </div> -->
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/08/02</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/file/d/1MSFLzVwBFbV9lxAuFsgYPmRTnHiYjEZH/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/11/03</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1WvDZ9lJW9ApUqXWeHvo3M4She8DQkkZR?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/03/18</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/11dpKBtQWN2GIe6fVjS07mfzXeqTd5-eZ?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Research -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/03/23</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1q6f8fIr2bClQ--oI9xOfwmLiYJlJQqNL/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Final Report -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report</h5>
+                        <p class="card-text pt-sm-2">Not submitted yet</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/12LBDueTpMTsDGMCyeGXiKXOXO9yPElFV?usp=sharing" target="_blank">Download</a></li>
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1r2gsrye68z_XoniW0YO9knFcHSwWEhFT?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Poster -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-image mr-2 download-image"></i>Poster</h5>
+                        <p class="card-text pt-sm-2">Not Submitted yet</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1NH7J5JUiS4MXGIzS1jHHhkAGszy_1gRS?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Presentations -->
+            <div id="presentations" class="sub-section">
+                <h2>Presentations</h2>
+                <p>Please find all presentations related this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/08/02</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1MSFLzVwBFbV9lxAuFsgYPmRTnHiYjEZH/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation I -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/03/11</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1wCXIkSIr4J9mHLUdsKkW4dwsLLa0n8tn/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation II -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/03/18</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1z50CN2kMswzTWyIbpBarNMKB20rAq6rP/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Final Presentation -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final Presentation</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/05/21</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1kASg7m1wvAqTzvNMCRTAF-jhsOPGR1Gw/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section id="about" class="main-sections " style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings"><b>About Us</b></h5>
+            <div class="sub-section about-us-container ">
+                <h2>Meet Our Team !</h2>
+                <div class="row  mt-sm-5 ">
+                  <!-- Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/supervisor.png" class="about-us-image supervisor" alt="Mr.Uditha Dharmakeerthi" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Mr. Uditha Dharmakeerthi</h5>
+						</br>
+                        <span class="badge badge-secondary">Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Computer Systems and Network Engineering</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/uditha-dharmakeerthi-84741b17/"><i class="fab fa-google mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:uditha.d@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Co Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/co-supervisor.png" class="about-us-image cosupervisor" alt="Mr. Amila Senarathne" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Mr. Amila Senarathne</h5>
+						</br>
+                        <span class="badge badge-secondary">Co-Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Computer Systems and Network Engineering</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/amila-nuwan-senarathne-462b5a30/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:amila.s@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  <!-- external Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/external-supervisor.png" class="about-us-image cosupervisor" alt="Mr. Samitha Vidhanaarachchi" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Mr. Samitha Vidhanaarachchi</h5>
+						</br>
+                        <span class="badge badge-secondary">External-Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Computer Science and Software Engineering</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/samitha-vidhana-arachchi/"><i class="fab fa-google mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:samitha.v@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  </div>
+				  <div class="row  mt-sm-5" style="justify-content: center">
+                  <!-- Tharindu -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/tharindu.png" class="about-us-image " alt="Sirikumara K.D.T.M." height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Sirikumara K.D.T.M.</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Leader</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Software Engineering</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/tmsirikumara/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:tharindumalinga.sk@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Mohan -->
+                   <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/mohan.png" class="about-us-image" alt="Weerasinghe M.K." height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Weerasinghe M.K.</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Software Engineering</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/mohan-weerasinghe-662602155/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:wmohankavinda@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Chathurya -->
+                          <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/chathurya.png" class="about-us-image" alt="Nanayakkara B.G.C.S." height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Nanayakkara B.G.C.S.</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Information Technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/chathurya-nanayakkara-740a04215/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:chathurya.nanayakkara@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Praveen -->
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/praveen.png" class="about-us-image" alt="Alahakoon A.M.D.P.S." height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Alahakoon A.M.D.P.S.</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Information Technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/praveen-subhash-alahakoon/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:praveen.subash98@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  </div>
+            </div>
+        </div>
+      </section>
+
+	    <!-- Achievements -->
+	   <!-- <section id="achievements" class="main-sections" >
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center  display-5">Achievements</h2>
+                  <div class="section-center">
+                    <div class="section-figure text-center">
+                      <img src="./Images/ach/award.png" width="80%"/>
+                    </div>
+                  </div>
+				  <div>
+				 </br>
+				 <p style="text-align: justify;"> We were selected as finalists to represent Sri Lanka Institute of Information Technology at the National Best Quality ICT Awards 2021 and E-Swabhumani 2021. Furthermore, we have been selected as national nominees to represent Sri Lanka in the WSA (World Summit Award) and WSA Youth in 2021.</P>
+                </div>
+        </div>
+      </section> -->
+	      <!-- Promo Banner -->
+		  <!-- <section id="banner" class="main-sections">
+        <div class="promo-banner">
+            <div class="container">
+
+            	 <div class="section-center">
+                    <div class="section-figure">
+                      <img src="./Images/back/Icon.png" width="10%"/>
+                    </div>
+                  </div>
+            </div>
+                 <h2 class="promo-banner-title">Download Now!</h2>
+                <p class="promo-banner-text">CocoRemedy mobile application is now available for download on Google Play. Click below to get the app now!</p>
+
+               <div class="section-center">
+                    <div class="section-figure">
+                      <a href="https://play.google.com/store/apps/details?id=com.bruteforce.cocoremedy"><img src="./Images/back/playstore.png" width="15%"/></a>
+                    </div>
+                  </div>
+        </div>
+		</section> -->
+
+      <!-- Contact Us -->
+      <section id="contact" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings"><b>Contact Us</b></h5>
+            <div class="sub-section">
+                <h2>Get in Touch</h2>
+                <div class="row  mt-sm-5">
+                  <div class="col-md-6 col-sm-12 contact-form">
+                    <form action="MAILTO:researchcoco@gmail.com" method="POST" enctype="text/plain">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Doe">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message or Query</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                      </div>
+                      <button type="submit" class="btn btncolorgradient	">Submit</button>
+                    </form>
+                  </div>
+                  <div class="col-md-6 col-sm-12 contact-details">
+                    <div>
+                      <p><strong>Contact Details</strong></p>
+                      <p>For further queries please reach us at <a href="mailto: researchcoco@gmail.com">researchreefguardian@gmail.com</a></p>
+                      <p>Hope this project helped you in some manner. Thank you!</p>
+                      <p>-Team ReefGuardian	</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Scripts -->
+    <script src="./lib/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="./lib/fontawesome/js/all.min.js"></script>
+    <script src="./lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
