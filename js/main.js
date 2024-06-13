@@ -100,7 +100,7 @@ $(document).mousemove(function(e){
     var x = e.pageX;
     var y = e.pageY;
 
-    $('.spotlight-image').css('clip-path', 'circle(20% at '+x+'px '+y+'px)');
+    $('.spotlight-image').css('clip-path', 'circle(15% at '+x+'px '+y+'px)');
 })
 
 // Home section height
